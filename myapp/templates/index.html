@@ -41,6 +41,7 @@
 			<p id="smallmsg" >We'll take of your dogs lovingly like they were our own. We’ll take your dog on walks, play with them, feed them, and make sure they feel comfortable. Compared to dog hotels, we will only take one dog at a time so that we can focus on that dog and that dog only. 
 </p>
 	
+<img style="position:absolute;width:350px;left:760px;top:-10px;"src="static/media/images/yogi.jpg">
 			
 			<a href="#pg3"><div id="button"><span style="position:absolute;top:25%;left:20%;">Contact Us</span></div></a>
 	</div>
@@ -68,26 +69,20 @@
 	<p id="number"><span style="font-family: 'Raleway', sans-serif;font-weight:600;">Phone Number</span> - 908-332-4948</p>
 	<p id="email"><span style="font-family: 'Raleway', sans-serif;font-weight:600;">Email</span> - puppy.paradise7707@gmail.com </p>
 		</div>
-	</div>
-	<div id="pg4">
-		<div id="headiv3">
-			<p id="backinfo3">Calendar</p>
+	
+		<div id="pg4">
+			<p style="position:absolute;top:-5%;left:4.2%;width:47%;height:10%;font-family: 'Raleway', sans-serif;font-size:35.5px;color:#05396A;font-weight: 600;" id="availability">Availability</p>
+			<div style="position:absolute;top:15%;left:4.2%;width:40%;height:45%;"><p style="font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27px;">Check the days that are available on our calendar and give either send us a call, text, or email letting us information on your dogs visit with us!</p></div>
+			<iframe src="https://calendar.google.com/calendar/embed?src=d3alpcut3pudifu1ct79pdihg8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="position:absolute;left:50%;top:5.5%;border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
 		</div>
-		<div id="msgdiv4">
-			<p id="infomsg3">Check avalible slots for your pets stay and then contact us to book a stay for your dog!</p>
-			<form action="/action_page.php">
-  <label for="birthday" style="color:#05396A;font-family: 'Raleway', sans-serif;">Days you want to stay:</label>
-  <input type="date" id="visit" name="visit">
-  <input type="submit">
-</form>
 	
 
-	</div>
-	<div id="pg5">
-		<div id="headiv4">
+	
+	<div style="position:absolute;top:195%;left:0%;width:100%;height:70%;background-color:#FFF5ED;"id="pg5">
+		<div style="position:absolute;top:8%;left:4.2%;width:47%;height:10%;}"id="headiv4">
 			<p id="backinfo4">Calculate price of your pets stay</p>
 		</div>
-		<div id="msgdiv5">
+		<div style=""id="msgdiv5">
 			<p id="infomsg4">Enter the number of days your dog will be staying with us and we'll tell you the cost of your dogs stay.</p>
 			<p id="enter">Number of days:</p>
 			<form method="POST" id="form">{% csrf_token %}
@@ -118,7 +113,9 @@
             form.reset()
        
     }
+
 </script>
+</div>
 		
 	
 	

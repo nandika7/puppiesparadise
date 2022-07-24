@@ -10,12 +10,12 @@ from .models import Dates
 
 
 class DateForm(forms.Form):
-   date = forms.DateField(widget=forms.DateInput(attrs={'id':'date',"type":"date"}))
+   #date = forms.DateField(widget=forms.DateInput(attrs={'id':'date',"type":"date"}))
    days = forms.IntegerField()
-   def save(self):
-      data=self.data
-      modelRef=Dates(date=data['date'],days=data['days'])
-      modelRef.save()
+   #def save(self):
+      #data=self.data
+      #modelRef=Dates(date=data['date'],days=data['days'])
+      #modelRef.save()
 
 def price(day):
     if day%7 == 0:
@@ -30,14 +30,21 @@ def view_function(request):
       form= DateForm(request.POST)
       if form.is_valid():
          print("yesssssssssssss")
-         date = form.cleaned_data['date']
+         #mydate = form.cleaned_data['date']
          days = form.cleaned_data['days']
-         print(price(days))
-         form.save()
-         return JsonResponse({"reply":"Your price is " + str(price(days))})
+         #print(mydate)
+         #try:
+             #print(Dates.objects.get(date = mydate))
+         #except:
+             #print(price(days))
+             #form.save()
+             
+         return JsonResponse({"reply":"Your price is $" + str(price(days))})
    
 # Create your views here.
 def index(request):
+    #print(Dates.objects.all()[0].date)
+    #print(Dates.objects.all()[0].days)
+    #print(Dates.objects.get(date = "2022-12-12"))
     form = DateForm()
     return render(request, "index.html",{"form":form})
-
