@@ -1,4 +1,4 @@
-#pg1{position:absolute;top:0%;left:0%;width:100%;height:100%;background-color:black;}
+#pg1{position:absolute;top:0%;left:0%;width:100%;height:100%;background-color:#FFF5ED;}
 #logotag{position:absolute;left:27px;top:12px;font-size:22px;font-family: 'Raleway', sans-serif;font-weight:600;font-width:700px;color:#FF7A49;}
 #sidetab{position:absolute; left: 71%;top:0%;}
 #msgdiv{position:absolute;left:50px;width:50%;height:55%;top:18%;}
@@ -7,6 +7,7 @@
 #sideimg{position:absolute;left:108%;width:440px;}
 #button{position:absolute; top: 125%;background-color: #FF7A49;border: none;color: black;width:160px;height:45px;border-radius: 20px;font-family: 'Raleway', sans-serif;color:white;}
 #tabtxt2{position:relative;margin-top:40px;margin-left:29px;float:left;font-size:18;font-family: 'Inter', sans-serif;color:#2F2D53;}
+#yogi{position:absolute;width:350px;left:760px;top:-10px;}
 
 #pg2{position:absolute;top:100%;left:0%;width:100%;height:67%;background-color:#FFF5ED;}
 #headiv{position:absolute;top:2%;left:55%;width:25%;height:10%;}
@@ -29,7 +30,12 @@
 #contactimg{position:absolute;left:60%;top:60px;width:350px;}
 
 
+
+#pg4{position:absolute;top:100%;left:0%; background-color:#FFF5ED;width:100%;height:100%;}
 #yes{position:absolute;top:-5%;left:4.2%;width:47%;height:10%;font-family: 'Raleway', sans-serif;font-size:35.5px;color:#05396A;font-weight: 600;}
+#nodiv{position:absolute;top:15%;left:4.2%;width:40%;height:45%;}
+#txt69{font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27.5px;}
+#cal{position:absolute;left:50%;top:5.5%;border: 0}
 
 #pg5{position:absolute;top:65%;left:0%;width:100%;height:90%;background-color:#FFF5ED;}
 #headiv4{position:absolute;top:0%;left:4.2%;width:47%;height:10%;}
@@ -49,6 +55,8 @@ html, body{overflow-x: hidden;max-width:100%;}
 #bigmsg{position:absolute;font-size:30px;font-family: 'Raleway', sans-serif;left:0%;line-height:45px;top:120px;color:#2F2D53;font-weight:600;}
 #smallmsg{position:absolute;font-size:18px;top:280px;font-family: 'Raleway', sans-serif;color:#2F2D53;left:2%;line-height:25px;}
 #button{position:absolute; top: 135%;background-color: #FF7A49;border: none;color: black;width:160px;height:45px;border-radius: 20px;font-family: 'Raleway', sans-serif;color:white;}
+#yogi{width:50px;position:absolute;left:760px;top:50px;}
+
 
 #pg2{position:absolute;top:733px;left:0%;width:100%;height:770px;background-color:#FFF5ED;}
 #priceimg{position:absolute;left:-2%;top:-50px;width:400px;}
@@ -68,11 +76,20 @@ html, body{overflow-x: hidden;max-width:100%;}
 #email{font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27px;}
 #contactimg{position:absolute;left:10%;top:60px;width:280px;}
 
-#pg4{position:absolute;top:2200px;left:0%;width:100%;height:250px;background-color:#FFF5ED;}
-#headiv3{position:absolute;top:-50px;left:4.2%;width:40%;height:100px;}
-#backinfo3{font-family: 'Raleway', sans-serif;font-size:35.5px;color:#05396A;font-weight:700;}
-#msgdiv4{position:absolute;top:28px;left:4.2%;width:90%;height:200px;}
-#infomsg3{font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27px;}
+#pg4{position:absolute;top:700px;left:0%; background-color:#FFF5ED;width:100%;height:720px;}
+#yes{position:absolute;top:-15px;left:21.5%;width:47%;height:50px;font-family: 'Raleway', sans-serif;font-size:35.5px;color:#05396A;font-weight: 600;}
+#nodiv{position:absolute;top:80px;left:5%;width:90%;height:45%;}
+#txt69{font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27.5px;}
+#cal{position:absolute;left:0%;top:230px;border: 0}
+
+#pg5{position:absolute;top:1200px;left:0%;width:100%;height:400px;background-color:#FFF5ED;}
+#headiv4{position:absolute;top:-50px;left:4.2%;width:47%;height:40px;}
+#backinfo4{font-family: 'Raleway', sans-serif;font-size:35.5px;color:#05396A;font-weight: 600;}
+#msgdiv5{position:absolute;top:28%;left:4.2%;width:40%;height:45%;}
+#infomsg4{font-family: 'Raleway', sans-serif;;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27px;}
+#enter{font-family: 'Raleway', sans-serif;font-size:18px;color:#2C557B;font-weight: 400;line-height: 27px;font-weight:600;}
+
+
 
 
 #pg6{position:absolute;top:250px;left:0%;width:100%;height:350px;background-color:#FFF5ED;}

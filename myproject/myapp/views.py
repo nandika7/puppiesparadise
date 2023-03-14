@@ -21,7 +21,7 @@ def price(day):
     if day%7 == 0:
         cost = 200*day/7
     else:
-        cost = day*33
+        cost = (day//7)*200+((day%7)*33)
     return cost
 
 
